@@ -107,6 +107,17 @@
   #define TIMER1_ICP_PIN 8
   #define TIMER1_CLK_PIN 5
 
+#elif defined (__AVR_ATmega328PB__)
+  #define TIMER1_A_PIN   9
+  #define TIMER1_B_PIN   10
+  #define TIMER1_ICP_PIN 8
+  #define TIMER1_CLK_PIN 5
+
+  #define TIMER3_A_PIN   0
+  #define TIMER3_B_PIN   2
+  #define TIMER3_ICP_PIN 25
+  #define TIMER3_CLK_PIN 26
+
 // Sanguino
 //
 #elif defined(__AVR_ATmega644P__) || defined(__AVR_ATmega644__)
